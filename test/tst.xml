@@ -1,0 +1,2093 @@
+<rdf:RDF xmlns:brick="https://brickschema.org/schema/Brick#" xmlns:csvw="http://www.w3.org/ns/csvw#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:odrl="http://www.w3.org/ns/odrl/2/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:prof="http://www.w3.org/ns/dx/prof/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:qb="http://purl.org/linked-data/cube#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/" xmlns:sh="http://www.w3.org/ns/shacl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:void="http://rdfs.org/ns/void#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sbol="http://sbols.org/v2#" xmlns:ns0="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:ns1="http://shortbol.org/v2#">
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_OriT/1">
+    <sbol:displayId>cd_OriT</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_OriT"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>Seva OriT</dcterms:description>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_OriT/1"/>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqOriT/1"/>
+    <dcterms:title>OriT</dcterms:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_Ap/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>cd_Ap</sbol:displayId>
+    <dcterms:description>Seva Ap</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_Ap"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_Ap/1"/>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqAp/1"/>
+    <dcterms:title>Ampicilin</dcterms:title>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000704"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/pSEVA111/1">
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/SanDI_0/1">
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SanDI_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_SanDI/1"/>
+        <sbol:displayId>SanDI_0</sbol:displayId>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <dcterms:title>pSEVA111</dcterms:title>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/T1_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_T1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T1_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:displayId>T1_0</sbol:displayId>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/PshAI_v1_annotation_0/1">
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/PshAI_v1_0/1"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/PshAI_v1_annotation_0"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:displayId>PshAI_v1_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/PshAI_v1_annotation_0/PshAI_v1_annotation_0_range/1">
+            <sbol:end>13285027</sbol:end>
+            <sbol:displayId>PshAI_v1_annotation_0_range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/PshAI_v1_annotation_0/PshAI_v1_annotation_0_range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:version>1</sbol:version>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:start>13195027</sbol:start>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/Ap_0/1">
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/Ap_0"/>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_Ap/1"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:displayId>Ap_0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/OriT_annotation_0/1">
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/OriT_0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/OriT_annotation_0/OriT_annotation_0_range/1">
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/OriT_annotation_0/OriT_annotation_0_range"/>
+            <sbol:end>15745027</sbol:end>
+            <sbol:displayId>OriT_annotation_0_range</sbol:displayId>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:version>1</sbol:version>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:start>13295027</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/OriT_annotation_0"/>
+        <sbol:displayId>OriT_annotation_0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/scar1_0/1">
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>scar1_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/scar1_0"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_scar1/1"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#plasmid/plasmid_c/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>plasmid_c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_c"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#plasmid/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/AscI_annotation_0/1">
+        <sbol:displayId>AscI_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/AscI_annotation_0/AscI_annotation_0_range/1">
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:displayId>AscI_annotation_0_range</sbol:displayId>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>19825027</sbol:end>
+            <sbol:start>19755027</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/AscI_annotation_0/AscI_annotation_0_range"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/AscI_0/1"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/AscI_annotation_0"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/R6K_0/1">
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_R6K/1"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:displayId>R6K_0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/R6K_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/T0_annotation_0/1">
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:displayId>T0_annotation_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T0_annotation_0"/>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T0_0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/T0_annotation_0/T0_annotation_0_range/1">
+            <sbol:end>2535027</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T0_annotation_0/T0_annotation_0_range"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>T0_annotation_0_range</sbol:displayId>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:start>1515027</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/SwaI_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SwaI_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:displayId>SwaI_0</sbol:displayId>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_SwaI/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>pSEVA111</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/T0_0/1">
+        <sbol:version>1</sbol:version>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_T0/1"/>
+        <sbol:displayId>T0_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T0_0"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/PshAI_v1_0/1">
+        <sbol:displayId>PshAI_v1_0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_PshAI_v1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/PshAI_v1_0"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/SwaI_annotation_0/1">
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/SwaI_annotation_0/SwaI_annotation_0_range/1">
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:displayId>SwaI_annotation_0_range</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SwaI_annotation_0/SwaI_annotation_0_range"/>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:version>1</sbol:version>
+            <sbol:start>2725027</sbol:start>
+            <sbol:end>2795027</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:displayId>SwaI_annotation_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SwaI_annotation_0"/>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SwaI_0/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/OriT_0/1">
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/OriT_0"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_OriT/1"/>
+        <sbol:displayId>OriT_0</sbol:displayId>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/SanDI_annotation_0/1">
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SanDI_annotation_0"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/SanDI_annotation_0/SanDI_annotation_0_range/1">
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SanDI_annotation_0/SanDI_annotation_0_range"/>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:start>2545027</sbol:start>
+            <sbol:displayId>SanDI_annotation_0_range</sbol:displayId>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:end>2605027</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/SanDI_0/1"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:displayId>SanDI_annotation_0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/R6K_annotation_0/1">
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/R6K_annotation_0"/>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/R6K_0/1"/>
+        <sbol:displayId>R6K_annotation_0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/R6K_annotation_0/R6K_annotation_0_range/1">
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/R6K_annotation_0/R6K_annotation_0_range"/>
+            <sbol:start>15835027</sbol:start>
+            <sbol:end>19745027</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:displayId>R6K_annotation_0_range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/T1_annotation_0/1">
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/T1_annotation_0/T1_annotation_0_range/1">
+            <sbol:end>20945027</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T1_annotation_0/T1_annotation_0_range"/>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:displayId>T1_annotation_0_range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>19835027</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T1_annotation_0"/>
+        <sbol:displayId>T1_annotation_0</sbol:displayId>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/T1_0/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/Ap_annotation_0/1">
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/Ap_annotation_0/Ap_annotation_0_range/1">
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:start>2805027</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>13185027</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/Ap_annotation_0/Ap_annotation_0_range"/>
+            <sbol:displayId>Ap_annotation_0_range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/Ap_0/1"/>
+        <sbol:version>1</sbol:version>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:displayId>Ap_annotation_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/Ap_annotation_0"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/scar1_annotation_0/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/scar1_annotation_0/scar1_annotation_0_range/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:start>2615027</sbol:start>
+            <sbol:displayId>scar1_annotation_0_range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/scar1_annotation_0/scar1_annotation_0_range"/>
+            <sbol:end>2715027</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/scar1_0/1"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/scar1_annotation_0"/>
+        <sbol:displayId>scar1_annotation_0</sbol:displayId>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/FseI_0/1">
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_FseI/1"/>
+        <sbol:displayId>FseI_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/FseI_0"/>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/pSEVA111_seq/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:component>
+      <sbol:Component rdf:about="http://sevahub.es/public/Canonical/pSEVA111/AscI_0/1">
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/AscI_0"/>
+        <sbol:displayId>AscI_0</sbol:displayId>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://sevahub.es/public/Canonical/cd_AscI/1"/>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://sevahub.es/public/Canonical/pSEVA111/FseI_annotation_0/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>FseI_annotation_0</sbol:displayId>
+        <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://sevahub.es/public/Canonical/pSEVA111/FseI_annotation_0/FseI_annotation_0_range/1">
+            <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/FseI_annotation_0/FseI_annotation_0_range"/>
+            <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/1"/>
+            <sbol:start>15755027</sbol:start>
+            <sbol:end>15825027</sbol:end>
+            <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>FseI_annotation_0_range</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+        <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/FseI_annotation_0"/>
+        <sbol:component rdf:resource="http://sevahub.es/public/Canonical/pSEVA111/FseI_0/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#arabinose/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+    <sbol:displayId>arabinose</sbol:displayId>
+    <ns1:title>arabinose small molecule</ns1:title>
+    <dcterms:description>allosteric regulator of AraC</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#arabinose"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#araC_p/1">
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#araC_p"/>
+    <sbol:displayId>araC_p</sbol:displayId>
+    <ns1:title>araC Protein</ns1:title>
+    <dcterms:description>Arabinose operon regulatory protein</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#yfp/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#yfp"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>yfp</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#CI_LVA/1">
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#CI_LVA_sequence/1"/>
+    <sbol:displayId>CI_LVA</sbol:displayId>
+    <prov:wasDerivedFrom rdf:resource="https://synbiohub.org/public/igem/BBa_C0051"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:title>CL Repressor</ns1:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#CI_LVA"/>
+    <sbol:version>1</sbol:version>
+    <ns0:mutableDescription>Modified with an LVA tail for rapid degradation of the protein</ns0:mutableDescription>
+    <dcterms:description>Product: CI_LVA Repressor, represses  cI regulator</dcterms:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#BBa_J23117/1">
+    <sbol:displayId>BBa_J23117</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#BBa_J23117"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>weak constitutive promoter.</dcterms:description>
+    <sbol:version>1</sbol:version>
+    <ns1:title>BBa_J23117 Promoter</ns1:title>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#BBa_J23117_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <prov:wasDerivedFrom rdf:resource="https://synbiohub.org/public/igem/BBa_J23117"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#CamR/1">
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#CamR_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#CamR"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Dna"/>
+    <dcterms:description>The regulatory gene.</dcterms:description>
+    <sbol:displayId>CamR</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#colE1/1">
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#colE1_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#colE1"/>
+    <prov:wasDerivedFrom rdf:resource="http://sevahub.es/public/Canonical/cd_pRO1600_ColE1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Dna"/>
+    <sbol:displayId>colE1</sbol:displayId>
+    <dcterms:description>SynORI constitutive plasmid copy number device (0.15)</dcterms:description>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_SwaI/1">
+    <dcterms:title>SwaI</dcterms:title>
+    <sbol:version>1</sbol:version>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqSwaI/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001687"/>
+    <sbol:displayId>cd_SwaI</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_SwaI"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_SwaI/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>Seva SwaI</dcterms:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#reporter/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Dna"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#reporter"/>
+    <sbol:displayId>reporter</sbol:displayId>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#reporter/reporter_yfp_c/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#yfp/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#reporter/reporter_yfp_c"/>
+        <sbol:displayId>reporter_yfp_c</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_PshAI_v1/1">
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqPshAI_v1/1"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_PshAI_v1"/>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>PshAI</dcterms:title>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_PshAI_v1/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001687"/>
+    <dcterms:description>Seva PshAI</dcterms:description>
+    <sbol:displayId>cd_PshAI_v1</sbol:displayId>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#PBad/1">
+    <sbol:version>1</sbol:version>
+    <dcterms:description>E.coli promoter, inducer: arabinose, repressor: AraC</dcterms:description>
+    <prov:wasDerivedFrom rdf:resource="https://synbiohub.org/public/igem/BBa_I13453"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#PBad_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#PBad"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:displayId>PBad</sbol:displayId>
+    <ns1:title>PBad promoter</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#BBa_B0033/1">
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="https://synbiohub.org/public/igem/BBa_B0033"/>
+    <ns1:title>BBa_B0033</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#BBa_B0033"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:displayId>BBa_B0033</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#BBa_B0033_sequence/1"/>
+    <dcterms:description>Weaker RBS</dcterms:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#tetR_p/1">
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#tetR_p"/>
+    <dcterms:description>Tetracycline repressor protein</dcterms:description>
+    <ns1:title>tetR Protein</ns1:title>
+    <sbol:displayId>tetR_p</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#yfp_p/1">
+    <sbol:displayId>yfp_p</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#yfp_p"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#inverter/1">
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#inverter/inverter_tetR_sequenceAnnotation/1">
+        <sbol:component rdf:resource="http://shortbol.org/v2#inverter/inverter_tetR_c/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_tetR_sequenceAnnotation"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>inverter_tetR_sequenceAnnotation</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#inverter/inverter_tetR_sequenceAnnotation/tetR_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>tetR_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_tetR_sequenceAnnotation/tetR_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>3060</sbol:end>
+            <sbol:start>2429</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#inverter/inverter_araC_sequenceAnnotation/1">
+        <sbol:component rdf:resource="http://shortbol.org/v2#inverter/inverter_araC_c/1"/>
+        <sbol:displayId>inverter_araC_sequenceAnnotation</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#inverter/inverter_araC_sequenceAnnotation/araC_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1524</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_araC_sequenceAnnotation/araC_loc"/>
+            <sbol:end>2402</sbol:end>
+            <sbol:displayId>araC_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_araC_sequenceAnnotation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <dcterms:description>Inversion achieved by activation of production of araC and tetR</dcterms:description>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#inverter/inverter_araC_c/1">
+        <sbol:displayId>inverter_araC_c</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_araC_c"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#araC/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#inverter/inverter_BBa_J23117_c/1">
+        <sbol:displayId>inverter_BBa_J23117_c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_BBa_J23117_c"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#BBa_J23117/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#inverter/inverter_BBa_J23117_sequenceAnnotation/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#inverter/inverter_BBa_J23117_sequenceAnnotation/BBa_J23117_loc/1">
+            <sbol:displayId>BBa_J23117_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_BBa_J23117_sequenceAnnotation/BBa_J23117_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:end>1497</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1471</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>inverter_BBa_J23117_sequenceAnnotation</sbol:displayId>
+        <sbol:component rdf:resource="http://shortbol.org/v2#inverter/inverter_BBa_J23117_c/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_BBa_J23117_sequenceAnnotation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#inverter/inverter_elowitz_RBS_sequenceAnnotation/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#inverter/inverter_elowitz_RBS_sequenceAnnotation/elowitz_RBS_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>1506</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_elowitz_RBS_sequenceAnnotation/elowitz_RBS_loc"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>elowitz_RBS_loc</sbol:displayId>
+            <sbol:end>1517</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_elowitz_RBS_sequenceAnnotation"/>
+        <sbol:component rdf:resource="http://shortbol.org/v2#inverter/inverter_elowitz_RBS_c/1"/>
+        <sbol:displayId>inverter_elowitz_RBS_sequenceAnnotation</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#inverter/inverter_tetR_c/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#tetR/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_tetR_c"/>
+        <sbol:displayId>inverter_tetR_c</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>inverter</sbol:displayId>
+    <ns1:title>Inverter, </ns1:title>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#inverter/inverter_elowitz_RBS_c/1">
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#inverter/inverter_elowitz_RBS_c"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#elowitz_RBS/1"/>
+        <sbol:displayId>inverter_elowitz_RBS_c</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_T0/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <sbol:version>1</sbol:version>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_T0"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_T0/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:title>T0</dcterms:title>
+    <dcterms:description>Seva T0</dcterms:description>
+    <sbol:displayId>cd_T0</sbol:displayId>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqT0/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#atc_tetr/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+    <sbol:displayId>atc_tetr</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns1:title>ATC TetR Complex</ns1:title>
+    <dcterms:description>Product of ATC binding to TetR protein.</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#atc_tetr"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#NOR_gate/1">
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_prefix_c/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_prefix_c"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#biobrick_prefix/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>NOR_gate_biobrick_prefix_c</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_prefix_sequenceAnnotation/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_prefix_sequenceAnnotation"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_prefix_sequenceAnnotation/biobrick_prefix_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_prefix_sequenceAnnotation/biobrick_prefix_loc"/>
+            <sbol:end>151</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>biobrick_prefix_loc</sbol:displayId>
+            <sbol:start>140</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_prefix_c/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>NOR_gate_biobrick_prefix_sequenceAnnotation</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_inverter_c/1">
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#inverter/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>NOR_gate_inverter_c</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_inverter_c"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_reporter_c/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#reporter/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_reporter_c"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>NOR_gate_reporter_c</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:version>1</sbol:version>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_suffix_sequenceAnnotation/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_suffix_sequenceAnnotation/biobrick_suffix_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>biobrick_suffix_loc</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_suffix_sequenceAnnotation/biobrick_suffix_loc"/>
+            <sbol:start>3056</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>3084</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_suffix_c/1"/>
+        <sbol:displayId>NOR_gate_biobrick_suffix_sequenceAnnotation</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_suffix_sequenceAnnotation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns1:title>tet and ara Nor Gate.</ns1:title>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_OR_gate_sequenceAnnotation/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_OR_gate_sequenceAnnotation"/>
+        <sbol:displayId>NOR_gate_OR_gate_sequenceAnnotation</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_OR_gate_sequenceAnnotation/OR_gate_loc/1">
+            <sbol:start>162</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_OR_gate_sequenceAnnotation/OR_gate_loc"/>
+            <sbol:displayId>OR_gate_loc</sbol:displayId>
+            <sbol:end>1415</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_OR_gate_c/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:displayId>NOR_gate</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:description>NOR gate achieved via the activation and repression of araC and tetR production.</dcterms:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_inverter_sequenceAnnotation/1">
+        <sbol:component rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_inverter_c/1"/>
+        <sbol:displayId>NOR_gate_inverter_sequenceAnnotation</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_inverter_sequenceAnnotation/inverter_loc/1">
+            <sbol:start>1471</sbol:start>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_inverter_sequenceAnnotation/inverter_loc"/>
+            <sbol:displayId>inverter_loc</sbol:displayId>
+            <sbol:end>3060</sbol:end>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_inverter_sequenceAnnotation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_suffix_c/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#biobrick_suffix/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_biobrick_suffix_c"/>
+        <sbol:displayId>NOR_gate_biobrick_suffix_c</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#NOR_gate/NOR_gate_OR_gate_c/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate/NOR_gate_OR_gate_c"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#OR_gate/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>NOR_gate_OR_gate_c</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_SanDI/1">
+    <dcterms:description>Seva SanDI</dcterms:description>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>cd_SanDI</sbol:displayId>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqSanDI/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <dcterms:title>SanDI</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_SanDI"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001687"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_SanDI/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#biobrick_prefix/1">
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#biobrick_prefix_sequence/1"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#biobrick_prefix"/>
+    <sbol:displayId>biobrick_prefix</sbol:displayId>
+    <ns1:title>misc_feature</ns1:title>
+    <dcterms:description>note: biobrick prefix, </dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Dna"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#plasmid/1">
+    <dcterms:description>Organism: Cloning vector pNOR10-20</dcterms:description>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#plasmid/plasmid_colE1_c/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#colE1/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_colE1_c"/>
+        <sbol:displayId>plasmid_colE1_c</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#plasmid/plasmid_colE1_sequenceAnnotation/1">
+        <sbol:component rdf:resource="http://shortbol.org/v2#plasmid/plasmid_colE1_c/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#plasmid/plasmid_colE1_sequenceAnnotation/colE1_loc/1">
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_colE1_sequenceAnnotation/colE1_loc"/>
+            <sbol:displayId>colE1_loc</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:end>4047</sbol:end>
+            <sbol:start>3365</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_colE1_sequenceAnnotation"/>
+        <sbol:displayId>plasmid_colE1_sequenceAnnotation</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#plasmid/plasmid_CamR_c/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#CamR/1"/>
+        <sbol:displayId>plasmid_CamR_c</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_CamR_c"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid"/>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#plasmid/plasmid_NOR_gate_c/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#NOR_gate/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_NOR_gate_c"/>
+        <sbol:displayId>plasmid_NOR_gate_c</sbol:displayId>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#plasmid/plasmid_CamR_sequenceAnnotation/1">
+        <sbol:displayId>plasmid_CamR_sequenceAnnotation</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#plasmid/plasmid_CamR_sequenceAnnotation/CamR_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_CamR_sequenceAnnotation/CamR_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#reverseComplement"/>
+            <sbol:end>4925</sbol:end>
+            <sbol:displayId>CamR_loc</sbol:displayId>
+            <sbol:start>4251</sbol:start>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_CamR_sequenceAnnotation"/>
+        <sbol:component rdf:resource="http://shortbol.org/v2#plasmid/plasmid_CamR_c/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <ns1:title>JQ394802</ns1:title>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#plasmid_sequence/1"/>
+    <sbol:displayId>plasmid</sbol:displayId>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#plasmid/plasmid_NOR_gate_sequenceAnnotation/1">
+        <sbol:displayId>plasmid_NOR_gate_sequenceAnnotation</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://shortbol.org/v2#plasmid/plasmid_NOR_gate_c/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#plasmid/plasmid_NOR_gate_sequenceAnnotation/NOR_gate_loc/1">
+            <sbol:displayId>NOR_gate_loc</sbol:displayId>
+            <sbol:end>3084</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_NOR_gate_sequenceAnnotation/NOR_gate_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>140</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid/plasmid_NOR_gate_sequenceAnnotation"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#OR_gate/1">
+    <ns1:title>CI repressor generating OR Gate.</ns1:title>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0015_sequenceAnnotation/1">
+        <sbol:displayId>OR_gate_BBa_B0015_sequenceAnnotation</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:component rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0015_c/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0015_sequenceAnnotation"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0015_sequenceAnnotation/BBa_B0015_loc/1">
+            <sbol:end>1415</sbol:end>
+            <sbol:start>1328</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0015_sequenceAnnotation/BBa_B0015_loc"/>
+            <sbol:displayId>BBa_B0015_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:displayId>OR_gate</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_PBad_sequenceAnnotation/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_PBad_sequenceAnnotation/PBad_loc/1">
+            <sbol:start>162</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_PBad_sequenceAnnotation/PBad_loc"/>
+            <sbol:end>402</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:displayId>PBad_loc</sbol:displayId>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_PBad_sequenceAnnotation"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>OR_gate_PBad_sequenceAnnotation</sbol:displayId>
+        <sbol:component rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_PBad_c/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_pTet_c/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#pTet/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>OR_gate_pTet_c</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_pTet_c"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_CI_LVA_c/1">
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_CI_LVA_c"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>OR_gate_CI_LVA_c</sbol:displayId>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#CI_LVA/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0033_c/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0033_c"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#BBa_B0033/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>OR_gate_BBa_B0033_c</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0033_sequenceAnnotation/1">
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0033_sequenceAnnotation/BBa_B0033_loc/1">
+            <sbol:displayId>BBa_B0033_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:end>538</sbol:end>
+            <sbol:start>528</sbol:start>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0033_sequenceAnnotation/BBa_B0033_loc"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0033_c/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0033_sequenceAnnotation"/>
+        <sbol:displayId>OR_gate_BBa_B0033_sequenceAnnotation</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_pTet_sequenceAnnotation/1">
+        <sbol:displayId>OR_gate_pTet_sequenceAnnotation</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_pTet_sequenceAnnotation"/>
+        <sbol:component rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_pTet_c/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_pTet_sequenceAnnotation/pTet_loc/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_pTet_sequenceAnnotation/pTet_loc"/>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>514</sbol:start>
+            <sbol:displayId>pTet_loc</sbol:displayId>
+            <sbol:end>519</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_PBad_c/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_PBad_c"/>
+        <sbol:displayId>OR_gate_PBad_c</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#PBad/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <dcterms:description>OR gate, achieved by two inducible promoters (pBad and pTet) activating CI production.</dcterms:description>
+    <sbol:version>1</sbol:version>
+    <sbol:component>
+      <sbol:Component rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0015_c/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#BBa_B0015/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_BBa_B0015_c"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>OR_gate_BBa_B0015_c</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_CI_LVA_sequenceAnnotation/1">
+        <sbol:component rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_CI_LVA_c/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_CI_LVA_sequenceAnnotation"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://shortbol.org/v2#OR_gate/OR_gate_CI_LVA_sequenceAnnotation/CI_LVA_loc/1">
+            <sbol:displayId>CI_LVA_loc</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:start>545</sbol:start>
+            <sbol:version>1</sbol:version>
+            <sbol:end>1291</sbol:end>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#OR_gate/OR_gate_CI_LVA_sequenceAnnotation/CI_LVA_loc"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:displayId>OR_gate_CI_LVA_sequenceAnnotation</sbol:displayId>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_scar1/1">
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_scar1/1"/>
+    <dcterms:title>scar1</dcterms:title>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001953"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_scar1"/>
+    <sbol:displayId>cd_scar1</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_scar1/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#CI_p/1">
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#CI_p"/>
+    <dcterms:description>transcriptional repressor protein</dcterms:description>
+    <sbol:displayId>CI_p</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    <ns1:title>CI Protein</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#araC/1">
+    <dcterms:description>Product: araC Repressor, represses PBad, repressed arabinose</dcterms:description>
+    <prov:wasDerivedFrom rdf:resource="http://parts.igem.org/Part:BBa_K2442103"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#araC"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>araC</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#araC_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>araC Coding Sequence</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_FseI/1">
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqFseI/1"/>
+    <dcterms:title>FseI</dcterms:title>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_FseI"/>
+    <dcterms:description>Seva FseI</dcterms:description>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>cd_FseI</sbol:displayId>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_FseI/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001687"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#BBa_B0015/1">
+    <prov:wasDerivedFrom rdf:resource="https://synbiohub.org/public/igem/BBa_B0015"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns1:title>double terminator</ns1:title>
+    <sbol:version>1</sbol:version>
+    <dcterms:description>commonly used Double terminator consisting of BBa_B0010 and BBa_B0012.</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#BBa_B0015"/>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#BBa_B0015_sequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:displayId>BBa_B0015</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#Ara_arac/1">
+    <dcterms:description>Product of arabinose binding to araC protein.</dcterms:description>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>Ara Arac Complex</ns1:title>
+    <sbol:displayId>Ara_arac</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#Ara_arac"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_AscI/1">
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001687"/>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_AscI"/>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqAscI/1"/>
+    <dcterms:title>AscI</dcterms:title>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_AscI/1"/>
+    <sbol:version>1</sbol:version>
+    <dcterms:description>Seva AscI</dcterms:description>
+    <sbol:displayId>cd_AscI</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#pTet/1">
+    <sbol:version>1</sbol:version>
+    <prov:wasDerivedFrom rdf:resource="https://parts.igem.org/Part:BBa_R0040"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#pTet"/>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#pTet_sequence/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:displayId>pTet</sbol:displayId>
+    <dcterms:description>constitutive Promoter, repressor: by TetR, inducer: tetracycline or aTc.</dcterms:description>
+    <ns1:title>pTeT promoter</ns1:title>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#tetR/1">
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#tetR_sequence/1"/>
+    <sbol:version>1</sbol:version>
+    <dcterms:description>Product: tetR Repressor, represses Ptet, repressed ATC,</dcterms:description>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <prov:wasDerivedFrom rdf:resource="https://synbiohub.org/public/igem/BBa_C0040"/>
+    <ns1:title>tetR Coding Sequence</ns1:title>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#tetR"/>
+    <sbol:displayId>tetR</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_R6K/1">
+    <sbol:version>1</sbol:version>
+    <dcterms:title>R6K</dcterms:title>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_R6K/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqR6K/1"/>
+    <sbol:displayId>cd_R6K</sbol:displayId>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000296"/>
+    <dcterms:description>Seva R6K</dcterms:description>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_R6K"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#ATC/1">
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#ATC"/>
+    <sbol:displayId>ATC</sbol:displayId>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+    <sbol:version>1</sbol:version>
+    <ns1:title>anhydrotetracycline molecule</ns1:title>
+    <dcterms:description>regulator of tetR</dcterms:description>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#elowitz_RBS/1">
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <ns1:title>Elowitz RBS</ns1:title>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>elowitz_RBS</sbol:displayId>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#elowitz_RBS_sequence/1"/>
+    <prov:wasDerivedFrom rdf:resource="https://synbiohub.org/public/igem/BBa_B0034"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#elowitz_RBS"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://shortbol.org/v2#biobrick_suffix/1">
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#biobrick_suffix"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Dna"/>
+    <sbol:version>1</sbol:version>
+    <sbol:sequence rdf:resource="http://shortbol.org/v2#biobrick_suffix_sequence/1"/>
+    <ns1:title>misc_feature</ns1:title>
+    <dcterms:description>note: biobrick suffix.</dcterms:description>
+    <sbol:displayId>biobrick_suffix</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="http://sevahub.es/public/Canonical/cd_T1/1">
+    <sbol:version>1</sbol:version>
+    <dcterms:title>T1</dcterms:title>
+    <sbol:sequence rdf:resource="http://sevahub.es/public/Canonical/seq_seqT1/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/cd_T1"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/cd_T1/1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <dcterms:description>example T1</dcterms:description>
+    <sbol:displayId>cd_T1</sbol:displayId>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#PBad_sequence/1">
+    <sbol:displayId>PBad_sequence</sbol:displayId>
+    <sbol:elements>AGAAACCAATTGTCCATATTGCATCAGACATTGCCGTCACTGCGTCTTTTACTGGCTCTTCTCGCTAACCAAACCGGTAACCCCGCTTATTAAAAGCATTCTGTAACAAAGCGGGACCAAAGCCATGACAAAAACGCGTAACAAAAGTGTCTATAATCACGGCAGAAAAGTCCACATTGATTATTTGCACGGCGTCACACTTTGCTATGCCATAGCATTTTTATCCATAAGATTAGCGGATCCTACCTG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#PBad_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#tetR_sequence/1">
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ATGTCCAGATTAGATAAAAGTAAAGTGATTAACAGCGCATTAGAGCTGCTTAATGAGGTCGGAATCGAAGGTTTAACAACCCGTAAACTCGCCCAGAAGCTAGGTGTAGAGCAGCCTACATTGTATTGGCATGTAAAAAATAAGCGGGCTTTGCTCGACGCCTTAGCCATTGAGATGTTAGATAGGCACCATACTCACTTTTGCCCTTTAGAAGGGGAAAGCTGGCAAGATTTTTTACGTAATAACGCTAAAAGTTTTAGATGTGCTTTACTAAGTCATCGCGATGGAGCAAAAGTACATTTAGGTACACGGCCTACAGAAAAACAGTATGAAACTCTCGAAAATCAATTAGCCTTTTTATGCCAACAAGGTTTTTCACTAGAGAATGCATTATATGCACTCAGCGCTGTGGGGCATTTTACTTTAGGTTGCGTATTGGAAGATCAAGAGCATCAAGTCGCTAAAGAAGAAAGGGAAACACCTACTACTGATAGTATGCCGCCATTATTACGACAAGCTATCGAATTATTTGATCACCAAGGTGCAGAGCCAGCCTTCTTATTCGGCCTTGAATTGATCATATGCGGATTAGAAAAACAACTTAAATGTGAAAGTGGGTCCTAA</sbol:elements>
+    <sbol:displayId>tetR_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#tetR_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqT0/1">
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqT0/1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>CTTGGACTCCTGTTGATAGATCCAGTAATGACCTCAGAACTCCATCTGGATTTGTTCAGAACGCTCGGTTGCCGCCGGGCGTTTTTTATTGGTGAGAATCCAG</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqT0"/>
+    <sbol:displayId>seq_seqT0</sbol:displayId>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqSanDI/1">
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqSanDI/1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>GGGTCCC</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqSanDI"/>
+    <sbol:displayId>seq_seqSanDI</sbol:displayId>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#CamR_sequence/1">
+    <sbol:elements>CGGCATGATGAACCTGAATCGCCAGCGGCATCAGCACCTTGTCGCCTTGCGTATAATATTTGCCCATGGTGAAAACGGGGGCGAAGAAGTTGTCCATATTGGCCACGTTTAAATCAAAACTGGTGAAACTCACCCAGGGATTGGCTGAGACGAAAAACATATTCTCAATAAACCCTTTAGGGAAATAGGCCAGGTTTTCACCGTAACACGCCACATCTTGCGAATATATGTGTAGAAACTGCCGGAAATCGTCGTGGTATTCACTCCAGAGCGATGAAAACGTTTCAGTTTGCTCATGGAAAACGGTGTAACAAGGGTGAACACTATCCCATATCACCAGCTCACCGTCTTTCATTGCCATACGAAATTCCGGATGAGCATTCATCAGGCGGGCAAGAATGTGAATAAAGGCCGGATAAAACTTGTGCTTATTTTTCTTTACGGTCTTTAAAAAGGCCGTAATATCCAGCTGAACGGTCTGGTTATAGGTACATTGAGCAACTGACTGAAATGCCTCAAAATGTTCTTTACGATGCCATTGGGATATATCAACGGTGGTATATCCAGTGATTTTTTTCTCCATTTTAGCTTCCTTAGCTCCTGAAAATCTCGATAACTCAAAAAATACGCCCGGTAGTGATCTTATTTCATTATGGTGAAAGTTGGAACCTCTTA</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>CamR_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#CamR_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqR6K/1">
+    <sbol:displayId>seq_seqR6K</sbol:displayId>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqR6K"/>
+    <sbol:elements>GATCTGAAGATCAGCAGTTCAACCTGTTGATAGTACGTACTAAGCTCTCATGTTTCACGTACTAAGCTCTCATGTTTAACGTACTAAGCTCTCATGTTTAACGAACTAAACCCTCATGGCTAACGTACTAAGCTCTCATGGCTAACGTACTAAGCTCTCATGTTTCACGTACTAAGCTCTCATGTTTGAACAATAAAATTAATATAAATCAGCAACTTAAATAGCCTCTAAGGTTTTAAGTTTTATAAGAAAAAAAAGAATATATAAGGCTTTTAAAGCCTTTAAGGTTTAACGGTTGTGGACAACAAGCCAGGGATGTAACGCACTGAGAAGCCCTTAGAGCCTCTCAAAGCAATTTTGAGTGACACAGGAACACTTAACGGCTGACATGG</sbol:elements>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqR6K/1"/>
+    <sbol:encoding rdf:resource="http://seva.cnb.csic.eshttp//seva.cnb.csic.es/"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqOriT/1">
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>CTTTTCCGCTGCATAACCCTGCTTCGGGGTCATTATAGCGATTTTTTCGGTATATCCATCCTTTTTCGCACGATATACAGGATTTTGCCAAAGGGTTCGTGTAGACTTTCCTTGGTGTATCCAACGGCGTCAGCCGGGCAGGATAGGTGAAGTAGGCCCACCCGCGAGCGGGTGTTCCTTCTTCACTGTCCCTTATTCGCACCTGGCGGTGCTCAACGGGAATCCTGCTCTGCGAGGCTGGCCGTA</sbol:elements>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqOriT/1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqOriT"/>
+    <sbol:displayId>seq_seqOriT</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#BBa_J23117_sequence/1">
+    <sbol:displayId>BBa_J23117_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#BBa_J23117_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>TTGACAGCTAGCTCAGTCCTAGGGATTGTGCTAGC</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqPshAI_v1/1">
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqPshAI_v1/1"/>
+    <sbol:displayId>seq_seqPshAI_v1</sbol:displayId>
+    <sbol:elements>GACCCTTGTC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqPshAI_v1"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#BBa_B0033_sequence/1">
+    <sbol:displayId>BBa_B0033_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>TCACACAGGAC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#BBa_B0033_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqAscI/1">
+    <sbol:elements>GGCGCGCC</sbol:elements>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqAscI/1"/>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqAscI"/>
+    <sbol:displayId>seq_seqAscI</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#biobrick_prefix_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#biobrick_prefix_sequence"/>
+    <sbol:elements>GAATTCGCGGCCGCTTCTAG</sbol:elements>
+    <sbol:displayId>biobrick_prefix_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqFseI/1">
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqFseI"/>
+    <sbol:elements>GGCCGGCC</sbol:elements>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqFseI/1"/>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>seq_seqFseI</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#biobrick_suffix_sequence/1">
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#biobrick_suffix_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>biobrick_suffix_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>TACTAGTAGCGGCCGCTGCAG</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqAp/1">
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqAp"/>
+    <sbol:encoding rdf:resource="http://seva.cnb.csic.eshttp//seva.cnb.csic.es/"/>
+    <sbol:elements>TAGTAGCCCGCCTAATGAGCGGGCTTTTTTTTAATTCCCCTATTTGTTTATTTTTCTAAATACATTCAAATATGTATCCGCTCATGAGACAATAACCCTGATAAATGCTTCAATAATATTGAAAAAGGAAGAGTATGAGCATTCAGCATTTTCGTGTGGCGCTGATTCCGTTTTTTGCGGCGTTTTGCCTGCCGGTGTTTGCGCATCCGGAAACCCTGGTGAAAGTGAAAGATGCGGAAGATCAACTGGGTGCGCGCGTGGGCTATATTGAACTGGATCTGAACAGCGGCAAAATTCTGGAATCTTTTCGTCCGGAAGAACGTTTTCCGATGATGAGCACCTTTAAAGTGCTGCTGTGCGGTGCGGTTCTGAGCCGTGTGGATGCGGGCCAGGAACAACTGGGCCGTCGTATTCATTATAGCCAGAACGATCTGGTGGAATATAGCCCGGTGACCGAAAAACATCTGACCGATGGCATGACCGTGCGTGAACTGTGCAGCGCGGCGATTACCATGAGCGATAACACCGCGGCGAACCTGCTGCTGACGACCATTGGCGGTCCGAAAGAACTGACCGCGTTTCTGCATAACATGGGCGATCATGTGACCCGTCTGGATCGTTGGGAACCGGAACTGAACGAAGCGATTCCGAACGATGAACGTGATACCACCATGCCGGCAGCAATGGCGACCACCCTGCGTAAACTGCTGACGGGTGAGCTGCTGACCCTGGCAAGCCGCCAGCAACTGATTGATTGGATGGAAGCGGATAAAGTGGCGGGTCCGCTGCTGCGTAGCGCGCTGCCGGCTGGCTGGTTTATTGCGGATAAAAGCGGTGCGGGCGAACGTGGCAGCCGTGGCATTATTGCGGCGCTGGGCCCGGATGGTAAACCGAGCCGTATTGTGGTGATTTATACCACCGGCAGCCAGGCGACGATGGATGAACGTAACCGTCAGATTGCGGAAATTGGCGCGAGCCTGATTAAACATTGGTAAACCGATACAATTAAAGGCTCCTTTTGGAGCCTTTTTTTTTGGAC</sbol:elements>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqAp/1"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>seq_seqAp</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#colE1_sequence/1">
+    <sbol:elements>GGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCAATGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGGACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGA</sbol:elements>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#colE1_sequence"/>
+    <sbol:displayId>colE1_sequence</sbol:displayId>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/pSEVA111_seq/1">
+    <sbol:elements>TTAATTAATCGAGTGCCACCTGACGTCTAAGAAACCATTATTATCATGACATTAACCTATAAAAATAGGCGTATCACGAGGCAGAATTTCAGATAAAAAAAATCCTTAGCTTTCGCTAAGGATGATTTCTGGAATTCGCGGCCGCTTCTAGAGAGAAACCAATTGTCCATATTGCATCAGACATTGCCGTCACTGCGTCTTTTACTGGCTCTTCTCGCTAACCAAACCGGTAACCCCGCTTATTAAAAGCATTCTGTAACAAAGCGGGACCAAAGCCATGACAAAAACGCGTAACAAAAGTGTCTATAATCACGGCAGAAAAGTCCACATTGATTATTTGCACGGCGTCACACTTTGCTATGCCATAGCATTTTTATCCATAAGATTAGCGGATCCTACCTGACGCTTTTTATCGCAACTCTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTAGCGACTAGAGTCCCTATCAGTGATAGAGATTGACATCCCTATCAGTGATAGATATAATGAGCACTACTAGAGTCACACAGGACTACTAGATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTGCAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCAGGGATGTTCTCACCTGAGCTTAGAACCTTTACCAAAGGTGATGCGGAGAGATGGGTAAGCACAACCAAAAAAGCCAGTGATTCTGCATTCTGGCTTGAGGTTGAAGGTAATTCCATGACCGCACCAACAGGCTCCAAGCCAAGCTTTCCTGACGGAATGTTAATTCTCGTTGACCCTGAGCAGGCTGTTGAGCCAGGTGATTTCTGCATAGCCAGACTTGGGGGTGATGAGTTTACCTTCAAGAAACTGATCAGGGATAGCGGTCAGGTGTTTTTACAACCACTAAACCCACAGTACCCAATGATCCCATGCAATGAGAGTTGTTCCGTTGTGGGGAAAGTTATCGCTAGTCAGTGGCCTGAAGAGACGTTTGGCGCTGCAAACGACGAAAACTACGCTTTAGTAGCTTAATAACGCTGATAGTGCTAGTGTAGATCGCTACTAGAGCCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATACTAGAGTTGACAGCTAGCTCAGTCCTAGGGATTGTGCTAGCTACTAGAGAAAGAGGAGAAATACTAGATGGCTGAAGCGCAAAATGATCCCCTGCTGCCGGGATACTCGTTTAATGCCCATCTGGTGGCGGGTTTAACGCCGATTGAGGCCAACGGTTATCTCGATTTTTTTATCGACCGACCGCTGGGAATGAAAGGTTATATTCTCAATCTCACCATTCGCGGTCAGGGGGTGGTGAAAAATCAGGGACGAGAATTTGTTTGCCGACCGGGTGATATTTTGCTGTTCCCGCCAGGAGAGATTCATCACTACGGTCGTCATCCGGAGGCTCGCGAATGGTATCACCAGTGGGTTTACTTTCGTCCGCGCGCCTACTGGCATGAATGGCTTAACTGGCCGTCAATATTTGCCAATACGGGGTTCTTTCGCCCGGATGAAGCGCACCAGCCGCATTTCAGCGACCTGTTTGGGCAAATCATTAACGCCGGGCAAGGGGAAGGGCGCTATTCGGAGCTGCTGGCGATAAATCTGCTTGAGCAATTGTTACTGCGGCGCATGGAAGCGATTAACGAGTCGCTCCATCCACCGATGGATAATCGGGTACGCGAGGCTTGTCAGTACATCAGCGATCACCTGGCAGACAGCAATTTTGATATCGCCAGCGTCGCACAGCATGTTTGCTTGTCGCCGTCGCGTCTGTCACATCTTTTCCGCCAGCAGTTAGGGATTAGCGTCTTAAGCTGGCGCGAGGACCAACGTATCAGCCAGGCGAAGCTGCTTTTGAGCACCACCCGGATGCCTATCGCCACCGTCGGTCGCAATGTTGGTTTTGACGATCAACTCTATTTCTCGCGGGTATTTAAAAAATGCACCGGGGCCAGCCCGAGCGAGTTCCGTGCCGGTTGTGAAGAAAAAGTGAATGATGTAGCCGTCAAGTTGTCATAATACTAGATCACACAGGAAAGGCCTCGATGTCCAGATTAGATAAAAGTAAAGTGATTAACAGCGCATTAGAGCTGCTTAATGAGGTCGGAATCGAAGGTTTAACAACCCGTAAACTCGCCCAGAAGCTAGGTGTAGAGCAGCCTACATTGTATTGGCATGTAAAAAATAAGCGGGCTTTGCTCGACGCCTTAGCCATTGAGATGTTAGATAGGCACCATACTCACTTTTGCCCTTTAGAAGGGGAAAGCTGGCAAGATTTTTTACGTAATAACGCTAAAAGTTTTAGATGTGCTTTACTAAGTCATCGCGATGGAGCAAAAGTACATTTAGGTACACGGCCTACAGAAAAACAGTATGAAACTCTCGAAAATCAATTAGCCTTTTTATGCCAACAAGGTTTTTCACTAGAGAATGCATTATATGCACTCAGCGCTGTGGGGCATTTTACTTTAGGTTGCGTATTGGAAGATCAAGAGCATCAAGTCGCTAAAGAAGAAAGGGAAACACCTACTACTGATAGTATGCCGCCATTATTACGACAAGCTATCGAATTATTTGATCACCAAGGTGCAGAGCCAGCCTTCTTATTCGGCCTTGAATTGATCATATGCGGATTAGAAAAACAACTTAAATGTGAAAGTGGGTCCTAATAATACTAGTAGCGGCCGCTGCAGTCCGGCAAAAAAACGGGCAAGGTGTCACCACCCTGCCCTTTTTCTTTAAAACCGAAAAGATTACTTCGCGTTATGCAGGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATCCTAGGGCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCAATGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGGACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGACTTGTGCTTGGATTCTCACCAATAAAAAACGCCCGGCGGCAACCGAGCGTTCTGAACAAATCCAGATGGAGTTCTGAGGTCATTACTGGATCTATCAACAGGAGTCCAAGCGAGCTCGATATCAAATTACGCCCCGCCCTGCCACTCATCGCAGTACTGTTGTAATTCATTAAGCATTCTGCCGACATGGAAGCCATCACAGACGGCATGATGAACCTGAATCGCCAGCGGCATCAGCACCTTGTCGCCTTGCGTATAATATTTGCCCATGGTGAAAACGGGGGCGAAGAAGTTGTCCATATTGGCCACGTTTAAATCAAAACTGGTGAAACTCACCCAGGGATTGGCTGAGACGAAAAACATATTCTCAATAAACCCTTTAGGGAAATAGGCCAGGTTTTCACCGTAACACGCCACATCTTGCGAATATATGTGTAGAAACTGCCGGAAATCGTCGTGGTATTCACTCCAGAGCGATGAAAACGTTTCAGTTTGCTCATGGAAAACGGTGTAACAAGGGTGAACACTATCCCATATCACCAGCTCACCGTCTTTCATTGCCATACGAAATTCCGGATGAGCATTCATCAGGCGGGCAAGAATGTGAATAAAGGCCGGATAAAACTTGTGCTTATTTTTCTTTACGGTCTTTAAAAAGGCCGTAATATCCAGCTGAACGGTCTGGTTATAGGTACATTGAGCAACTGACTGAAATGCCTCAAAATGTTCTTTACGATGCCATTGGGATATATCAACGGTGGTATATCCAGTGATTTTTTTCTCCATTTTAGCTTCCTTAGCTCCTGAAAATCTCGATAACTCAAAAAATACGCCCGGTAGTGATCTTATTTCATTATGGTGAAAGTTGGAACCTCTTACGTGCCGATCAACGTCTCATTTTCGCCAGATATCGACGTCTAAGAAACCATTATTATCATGACATTAACCTATAAAAATAGGCGTATCACGAGGCCCTTTCGTCTTCACCACTAGTCTTGGACTCCTGTTGATAGATCCAGTAATGACCTCAGAACTCCATCTGGATTTGTTCAGAACGCTCGGTTGCCGCCGGGCGTTTTTTATTGGTGAGAATCCAGGGGTCCCCAATAATTACGATTTAAATTAGTAGCCCGCCTAATGAGCGGGCTTTTTTTTAATTCCCCTATTTGTTTATTTTTCTAAATACATTCAAATATGTATCCGCTCATGAGACAATAACCCTGATAAATGCTTCAATAATATTGAAAAAGGAAGAGTATGAGCATTCAGCATTTTCGTGTGGCGCTGATTCCGTTTTTTGCGGCGTTTTGCCTGCCGGTGTTTGCGCATCCGGAAACCCTGGTGAAAGTGAAAGATGCGGAAGATCAACTGGGTGCGCGCGTGGGCTATATTGAACTGGATCTGAACAGCGGCAAAATTCTGGAATCTTTTCGTCCGGAAGAACGTTTTCCGATGATGAGCACCTTTAAAGTGCTGCTGTGCGGTGCGGTTCTGAGCCGTGTGGATGCGGGCCAGGAACAACTGGGCCGTCGTATTCATTATAGCCAGAACGATCTGGTGGAATATAGCCCGGTGACCGAAAAACATCTGACCGATGGCATGACCGTGCGTGAACTGTGCAGCGCGGCGATTACCATGAGCGATAACACCGCGGCGAACCTGCTGCTGACGACCATTGGCGGTCCGAAAGAACTGACCGCGTTTCTGCATAACATGGGCGATCATGTGACCCGTCTGGATCGTTGGGAACCGGAACTGAACGAAGCGATTCCGAACGATGAACGTGATACCACCATGCCGGCAGCAATGGCGACCACCCTGCGTAAACTGCTGACGGGTGAGCTGCTGACCCTGGCAAGCCGCCAGCAACTGATTGATTGGATGGAAGCGGATAAAGTGGCGGGTCCGCTGCTGCGTAGCGCGCTGCCGGCTGGCTGGTTTATTGCGGATAAAAGCGGTGCGGGCGAACGTGGCAGCCGTGGCATTATTGCGGCGCTGGGCCCGGATGGTAAACCGAGCCGTATTGTGGTGATTTATACCACCGGCAGCCAGGCGACGATGGATGAACGTAACCGTCAGATTGCGGAAATTGGCGCGAGCCTGATTAAACATTGGTAAACCGATACAATTAAAGGCTCCTTTTGGAGCCTTTTTTTTTGGACGACCCTTGTCCTTTTCCGCTGCATAACCCTGCTTCGGGGTCATTATAGCGATTTTTTCGGTATATCCATCCTTTTTCGCACGATATACAGGATTTTGCCAAAGGGTTCGTGTAGACTTTCCTTGGTGTATCCAACGGCGTCAGCCGGGCAGGATAGGTGAAGTAGGCCCACCCGCGAGCGGGTGTTCCTTCTTCACTGTCCCTTATTCGCACCTGGCGGTGCTCAACGGGAATCCTGCTCTGCGAGGCTGGCCGTAGGCCGGCCGATCTGAAGATCAGCAGTTCAACCTGTTGATAGTACGTACTAAGCTCTCATGTTTCACGTACTAAGCTCTCATGTTTAACGTACTAAGCTCTCATGTTTAACGAACTAAACCCTCATGGCTAACGTACTAAGCTCTCATGGCTAACGTACTAAGCTCTCATGTTTCACGTACTAAGCTCTCATGTTTGAACAATAAAATTAATATAAATCAGCAACTTAAATAGCCTCTAAGGTTTTAAGTTTTATAAGAAAAAAAAGAATATATAAGGCTTTTAAAGCCTTTAAGGTTTAACGGTTGTGGACAACAAGCCAGGGATGTAACGCACTGAGAAGCCCTTAGAGCCTCTCAAAGCAATTTTGAGTGACACAGGAACACTTAACGGCTGACATGGGGCGCGCCCAGCTGTCTAGGGCGGCGGATTTGTCCTACTCAGGAGAGCGTTCACCGACAAACAACAGATAAAACGAAAGGCCCAGTCTTTCGACTGAGCCTTTCGTTTTATTTGATGCCT</sbol:elements>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/pSEVA111_seq/1"/>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>pSEVA111_seq</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/pSEVA111_seq"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#araC_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#araC_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:displayId>araC_sequence</sbol:displayId>
+    <sbol:elements>ATGGCTGAAGCGCAAAATGATCCCCTGCTGCCGGGATACTCGTTTAATGCCCATCTGGTGGCGGGTTTAACGCCGATTGAGGCCAACGGTTATCTCGATTTTTTTATCGACCGACCGCTGGGAATGAAAGGTTATATTCTCAATCTCACCATTCGCGGTCAGGGGGTGGTGAAAAATCAGGGACGAGAATTTGTTTGCCGACCGGGTGATATTTTGCTGTTCCCGCCAGGAGAGATTCATCACTACGGTCGTCATCCGGAGGCTCGCGAATGGTATCACCAGTGGGTTTACTTTCGTCCGCGCGCCTACTGGCATGAATGGCTTAACTGGCCGTCAATATTTGCCAATACGGGGTTCTTTCGCCCGGATGAAGCGCACCAGCCGCATTTCAGCGACCTGTTTGGGCAAATCATTAACGCCGGGCAAGGGGAAGGGCGCTATTCGGAGCTGCTGGCGATAAATCTGCTTGAGCAATTGTTACTGCGGCGCATGGAAGCGATTAACGAGTCGCTCCATCCACCGATGGATAATCGGGTACGCGAGGCTTGTCAGTACATCAGCGATCACCTGGCAGACAGCAATTTTGATATCGCCAGCGTCGCACAGCATGTTTGCTTGTCGCCGTCGCGTCTGTCACATCTTTTCCGCCAGCAGTTAGGGATTAGCGTCTTAAGCTGGCGCGAGGACCAACGTATCAGCCAGGCGAAGCTGCTTTTGAGCACCACCCGGATGCCTATCGCCACCGTCGGTCGCAATGTTGGTTTTGACGATCAACTCTATTTCTCGCGGGTATTTAAAAAATGCACCGGGGCCAGCCCGAGCGAGTTCCGTGCCGGTTGTGAAGAAAAAGTGAATGATGTAGCCGTCAAGTTGTCATAA</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#CI_LVA_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>ATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTGCAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCAGGGATGTTCTCACCTGAGCTTAGAACCTTTACCAAAGGTGATGCGGAGAGATGGGTAAGCACAACCAAAAAAGCCAGTGATTCTGCATTCTGGCTTGAGGTTGAAGGTAATTCCATGACCGCACCAACAGGCTCCAAGCCAAGCTTTCCTGACGGAATGTTAATTCTCGTTGACCCTGAGCAGGCTGTTGAGCCAGGTGATTTCTGCATAGCCAGACTTGGGGGTGATGAGTTTACCTTCAAGAAACTGATCAGGGATAGCGGTCAGGTGTTTTTACAACCACTAAACCCACAGTACCCAATGATCCCATGCAATGAGAGTTGTTCCGTTGTGGGGAAAGTTATCGCTAGTCAGTGGCCTGAAGAGACGTTTGGCGCTGCAAACGACGAAAACTACGCTTTAGTAGCTTAA</sbol:elements>
+    <sbol:displayId>CI_LVA_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#CI_LVA_sequence"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#elowitz_RBS_sequence/1">
+    <sbol:elements>AAAGAGGAGAAA</sbol:elements>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>elowitz_RBS_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#elowitz_RBS_sequence"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#BBa_B0015_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>BBa_B0015_sequence</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#BBa_B0015_sequence"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>CCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTC</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#pTet_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#pTet_sequence"/>
+    <sbol:elements>GAGCAC</sbol:elements>
+    <sbol:displayId>pTet_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqSwaI/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqSwaI"/>
+    <sbol:displayId>seq_seqSwaI</sbol:displayId>
+    <sbol:elements>ATTTAAAT</sbol:elements>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqSwaI/1"/>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_seqT1/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_seqT1"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_seqT1/1"/>
+    <sbol:displayId>seq_seqT1</sbol:displayId>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:elements>CAGCTGTCTAGGGCGGCGGATTTGTCCTACTCAGGAGAGCGTTCACCGACAAACAACAGATAAAACGAAAGGCCCAGTCTTTCGACTGAGCCTTTCGTTTTATTTGATGCCT</sbol:elements>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://shortbol.org/v2#plasmid_sequence/1">
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#plasmid_sequence"/>
+    <sbol:displayId>plasmid_sequence</sbol:displayId>
+    <sbol:elements>TCGAGTGCCACCTGACGTCTAAGAAACCATTATTATCATGACATTAACCTATAAAAATAGGCGTATCACGAGGCAGAATTTCAGATAAAAAAAATCCTTAGCTTTCGCTAAGGATGATTTCTGGAATTCGCGGCCGCTTCTAGAGAGAAACCAATTGTCCATATTGCATCAGACATTGCCGTCACTGCGTCTTTTACTGGCTCTTCTCGCTAACCAAACCGGTAACCCCGCTTATTAAAAGCATTCTGTAACAAAGCGGGACCAAAGCCATGACAAAAACGCGTAACAAAAGTGTCTATAATCACGGCAGAAAAGTCCACATTGATTATTTGCACGGCGTCACACTTTGCTATGCCATAGCATTTTTATCCATAAGATTAGCGGATCCTACCTGACGCTTTTTATCGCAACTCTCTACTGTTTCTCCATACCCGTTTTTTTGGGCTAGCGACTAGAGTCCCTATCAGTGATAGAGATTGACATCCCTATCAGTGATAGATATAATGAGCACTACTAGAGTCACACAGGACTACTAGATGAGCACAAAAAAGAAACCATTAACACAAGAGCAGCTTGAGGACGCACGTCGCCTTAAAGCAATTTATGAAAAAAAGAAAAATGAACTTGGCTTATCCCAGGAATCTGTCGCAGACAAGATGGGGATGGGGCAGTCAGGCGTTGGTGCTTTATTTAATGGCATCAATGCATTAAATGCTTATAACGCCGCATTGCTTGCAAAAATTCTCAAAGTTAGCGTTGAAGAATTTAGCCCTTCAATCGCCAGAGAAATCTACGAGATGTATGAAGCGGTTAGTATGCAGCCGTCACTTAGAAGTGAGTATGAGTACCCTGTTTTTTCTCATGTTCAGGCAGGGATGTTCTCACCTGAGCTTAGAACCTTTACCAAAGGTGATGCGGAGAGATGGGTAAGCACAACCAAAAAAGCCAGTGATTCTGCATTCTGGCTTGAGGTTGAAGGTAATTCCATGACCGCACCAACAGGCTCCAAGCCAAGCTTTCCTGACGGAATGTTAATTCTCGTTGACCCTGAGCAGGCTGTTGAGCCAGGTGATTTCTGCATAGCCAGACTTGGGGGTGATGAGTTTACCTTCAAGAAACTGATCAGGGATAGCGGTCAGGTGTTTTTACAACCACTAAACCCACAGTACCCAATGATCCCATGCAATGAGAGTTGTTCCGTTGTGGGGAAAGTTATCGCTAGTCAGTGGCCTGAAGAGACGTTTGGCGCTGCAAACGACGAAAACTACGCTTTAGTAGCTTAATAACGCTGATAGTGCTAGTGTAGATCGCTACTAGAGCCAGGCATCAAATAAAACGAAAGGCTCAGTCGAAAGACTGGGCCTTTCGTTTTATCTGTTGTTTGTCGGTGAACGCTCTCTACTAGAGTCACACTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTTATACTAGAGTTGACAGCTAGCTCAGTCCTAGGGATTGTGCTAGCTACTAGAGAAAGAGGAGAAATACTAGATGGCTGAAGCGCAAAATGATCCCCTGCTGCCGGGATACTCGTTTAATGCCCATCTGGTGGCGGGTTTAACGCCGATTGAGGCCAACGGTTATCTCGATTTTTTTATCGACCGACCGCTGGGAATGAAAGGTTATATTCTCAATCTCACCATTCGCGGTCAGGGGGTGGTGAAAAATCAGGGACGAGAATTTGTTTGCCGACCGGGTGATATTTTGCTGTTCCCGCCAGGAGAGATTCATCACTACGGTCGTCATCCGGAGGCTCGCGAATGGTATCACCAGTGGGTTTACTTTCGTCCGCGCGCCTACTGGCATGAATGGCTTAACTGGCCGTCAATATTTGCCAATACGGGGTTCTTTCGCCCGGATGAAGCGCACCAGCCGCATTTCAGCGACCTGTTTGGGCAAATCATTAACGCCGGGCAAGGGGAAGGGCGCTATTCGGAGCTGCTGGCGATAAATCTGCTTGAGCAATTGTTACTGCGGCGCATGGAAGCGATTAACGAGTCGCTCCATCCACCGATGGATAATCGGGTACGCGAGGCTTGTCAGTACATCAGCGATCACCTGGCAGACAGCAATTTTGATATCGCCAGCGTCGCACAGCATGTTTGCTTGTCGCCGTCGCGTCTGTCACATCTTTTCCGCCAGCAGTTAGGGATTAGCGTCTTAAGCTGGCGCGAGGACCAACGTATCAGCCAGGCGAAGCTGCTTTTGAGCACCACCCGGATGCCTATCGCCACCGTCGGTCGCAATGTTGGTTTTGACGATCAACTCTATTTCTCGCGGGTATTTAAAAAATGCACCGGGGCCAGCCCGAGCGAGTTCCGTGCCGGTTGTGAAGAAAAAGTGAATGATGTAGCCGTCAAGTTGTCATAATACTAGATCACACAGGAAAGGCCTCGATGTCCAGATTAGATAAAAGTAAAGTGATTAACAGCGCATTAGAGCTGCTTAATGAGGTCGGAATCGAAGGTTTAACAACCCGTAAACTCGCCCAGAAGCTAGGTGTAGAGCAGCCTACATTGTATTGGCATGTAAAAAATAAGCGGGCTTTGCTCGACGCCTTAGCCATTGAGATGTTAGATAGGCACCATACTCACTTTTGCCCTTTAGAAGGGGAAAGCTGGCAAGATTTTTTACGTAATAACGCTAAAAGTTTTAGATGTGCTTTACTAAGTCATCGCGATGGAGCAAAAGTACATTTAGGTACACGGCCTACAGAAAAACAGTATGAAACTCTCGAAAATCAATTAGCCTTTTTATGCCAACAAGGTTTTTCACTAGAGAATGCATTATATGCACTCAGCGCTGTGGGGCATTTTACTTTAGGTTGCGTATTGGAAGATCAAGAGCATCAAGTCGCTAAAGAAGAAAGGGAAACACCTACTACTGATAGTATGCCGCCATTATTACGACAAGCTATCGAATTATTTGATCACCAAGGTGCAGAGCCAGCCTTCTTATTCGGCCTTGAATTGATCATATGCGGATTAGAAAAACAACTTAAATGTGAAAGTGGGTCCTAATAATACTAGTAGCGGCCGCTGCAGTCCGGCAAAAAAACGGGCAAGGTGTCACCACCCTGCCCTTTTTCTTTAAAACCGAAAAGATTACTTCGCGTTATGCAGGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATCCTAGGGCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCAATGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGGACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGACTTGTGCTTGGATTCTCACCAATAAAAAACGCCCGGCGGCAACCGAGCGTTCTGAACAAATCCAGATGGAGTTCTGAGGTCATTACTGGATCTATCAACAGGAGTCCAAGCGAGCTCGATATCAAATTACGCCCCGCCCTGCCACTCATCGCAGTACTGTTGTAATTCATTAAGCATTCTGCCGACATGGAAGCCATCACAGACGGCATGATGAACCTGAATCGCCAGCGGCATCAGCACCTTGTCGCCTTGCGTATAATATTTGCCCATGGTGAAAACGGGGGCGAAGAAGTTGTCCATATTGGCCACGTTTAAATCAAAACTGGTGAAACTCACCCAGGGATTGGCTGAGACGAAAAACATATTCTCAATAAACCCTTTAGGGAAATAGGCCAGGTTTTCACCGTAACACGCCACATCTTGCGAATATATGTGTAGAAACTGCCGGAAATCGTCGTGGTATTCACTCCAGAGCGATGAAAACGTTTCAGTTTGCTCATGGAAAACGGTGTAACAAGGGTGAACACTATCCCATATCACCAGCTCACCGTCTTTCATTGCCATACGAAATTCCGGATGAGCATTCATCAGGCGGGCAAGAATGTGAATAAAGGCCGGATAAAACTTGTGCTTATTTTTCTTTACGGTCTTTAAAAAGGCCGTAATATCCAGCTGAACGGTCTGGTTATAGGTACATTGAGCAACTGACTGAAATGCCTCAAAATGTTCTTTACGATGCCATTGGGATATATCAACGGTGGTATATCCAGTGATTTTTTTCTCCATTTTAGCTTCCTTAGCTCCTGAAAATCTCGATAACTCAAAAAATACGCCCGGTAGTGATCTTATTTCATTATGGTGAAAGTTGGAACCTCTTACGTGCCGATCAACGTCTCATTTTCGCCAGATATCGACGTCTAAGAAACCATTATTATCATGACATTAACCTATAAAAATAGGCGTATCACGAGGCCCTTTCGTCTTCACC</sbol:elements>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/Mcs_Default_seq/1">
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/Mcs_Default_seq"/>
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/Mcs_Default_seq/1"/>
+    <sbol:elements>TTAATTAAAGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCGACTAGT</sbol:elements>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+    <sbol:version>1</sbol:version>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:displayId>Mcs_Default_seq</sbol:displayId>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="http://sevahub.es/public/Canonical/seq_scar1/1">
+    <ns0:topLevel rdf:resource="http://sevahub.es/public/Canonical/seq_scar1/1"/>
+    <sbol:persistentIdentity rdf:resource="http://sevahub.es/public/Canonical/seq_scar1"/>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:elements>CAATAATTACG</sbol:elements>
+    <sbol:displayId>seq_scar1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <ns0:ownedBy rdf:resource="http://sevahub.es/user/sevahub"/>
+  </sbol:Sequence>
+  <sbol:ModuleDefinition rdf:about="http://shortbol.org/v2#NOR_gate_module/1">
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/yfp_fc_i_genetic_production_with_yfp_p_fc/1">
+        <sbol:displayId>yfp_fc_i_genetic_production_with_yfp_p_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_fc_i_genetic_production_with_yfp_p_fc"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/yfp_fc_i_genetic_production_with_yfp_p_fc/yfp_fc_i_genetic_production_with_yfp_p_fc_yfp_fc_i_participation_promoter/1">
+            <sbol:displayId>yfp_fc_i_genetic_production_with_yfp_p_fc_yfp_fc_i_participation_promoter</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_fc_i_genetic_production_with_yfp_p_fc/yfp_fc_i_genetic_production_with_yfp_p_fc_yfp_fc_i_participation_promoter"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000598"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/yfp_fc_i_genetic_production_with_yfp_p_fc/yfp_fc_i_genetic_production_with_yfp_p_fc_yfp_p_fc_i_product/1">
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>yfp_fc_i_genetic_production_with_yfp_p_fc_yfp_p_fc_i_product</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_fc_i_genetic_production_with_yfp_p_fc/yfp_fc_i_genetic_production_with_yfp_p_fc_yfp_p_fc_i_product"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_fc_i_genetic_production_with_araC_p_fc/1">
+        <sbol:version>1</sbol:version>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_fc_i_genetic_production_with_araC_p_fc"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_fc_i_genetic_production_with_araC_p_fc/araC_fc_i_genetic_production_with_araC_p_fc_araC_p_fc_i_product/1">
+            <sbol:version>1</sbol:version>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc/1"/>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_fc_i_genetic_production_with_araC_p_fc/araC_fc_i_genetic_production_with_araC_p_fc_araC_p_fc_i_product"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+            <sbol:displayId>araC_fc_i_genetic_production_with_araC_p_fc_araC_p_fc_i_product</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>araC_fc_i_genetic_production_with_araC_p_fc</sbol:displayId>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_fc_i_genetic_production_with_araC_p_fc/araC_fc_i_genetic_production_with_araC_p_fc_araC_fc_i_participation_promoter/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_fc_i_genetic_production_with_araC_p_fc/araC_fc_i_genetic_production_with_araC_p_fc_araC_fc_i_participation_promoter"/>
+            <sbol:displayId>araC_fc_i_genetic_production_with_araC_p_fc_araC_fc_i_participation_promoter</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000598"/>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/pBad_fc/1">
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:displayId>pBad_fc</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#PBad/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pBad_fc"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_inhibition_with_pTet_fc/1">
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000169"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_inhibition_with_pTet_fc/tetR_p_fc_i_inhibition_with_pTet_fc_tetR_p_fc_i_inhibitor/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_inhibition_with_pTet_fc/tetR_p_fc_i_inhibition_with_pTet_fc_tetR_p_fc_i_inhibitor"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000020"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>tetR_p_fc_i_inhibition_with_pTet_fc_tetR_p_fc_i_inhibitor</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_inhibition_with_pTet_fc"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_inhibition_with_pTet_fc/tetR_p_fc_i_inhibition_with_pTet_fc_pTet_fc_i_inhibited/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/pTet_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_inhibition_with_pTet_fc/tetR_p_fc_i_inhibition_with_pTet_fc_pTet_fc_i_inhibited"/>
+            <sbol:displayId>tetR_p_fc_i_inhibition_with_pTet_fc_pTet_fc_i_inhibited</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000642"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>tetR_p_fc_i_inhibition_with_pTet_fc</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:version>1</sbol:version>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_yfp_fc/1">
+        <sbol:displayId>BBa_J23117_fc_i_stimulation_with_yfp_fc</sbol:displayId>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_yfp_fc/BBa_J23117_fc_i_stimulation_with_yfp_fc_yfp_fc_i_stimulated/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>BBa_J23117_fc_i_stimulation_with_yfp_fc_yfp_fc_i_stimulated</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_yfp_fc/BBa_J23117_fc_i_stimulation_with_yfp_fc_yfp_fc_i_stimulated"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_yfp_fc/BBa_J23117_fc_i_stimulation_with_yfp_fc_BBa_J23117_fc_i_stimulator/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_yfp_fc/BBa_J23117_fc_i_stimulation_with_yfp_fc_BBa_J23117_fc_i_stimulator"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+            <sbol:displayId>BBa_J23117_fc_i_stimulation_with_yfp_fc_BBa_J23117_fc_i_stimulator</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_yfp_fc"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/pTet_fc/1">
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:displayId>pTet_fc</sbol:displayId>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#pTet/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pTet_fc"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_p_fc/1">
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:displayId>CI_p_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#CI_p/1"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/arabinose_fc/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>arabinose_fc</sbol:displayId>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#arabinose/1"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/arabinose_fc"/>
+        <sbol:version>1</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/pBad_fc_i_stimulation_with_CI_LVA_fc/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pBad_fc_i_stimulation_with_CI_LVA_fc"/>
+        <sbol:displayId>pBad_fc_i_stimulation_with_CI_LVA_fc</sbol:displayId>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/pBad_fc_i_stimulation_with_CI_LVA_fc/pBad_fc_i_stimulation_with_CI_LVA_fc_CI_LVA_fc_i_stimulated/1">
+            <sbol:displayId>pBad_fc_i_stimulation_with_CI_LVA_fc_CI_LVA_fc_i_stimulated</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pBad_fc_i_stimulation_with_CI_LVA_fc/pBad_fc_i_stimulation_with_CI_LVA_fc_CI_LVA_fc_i_stimulated"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc/1"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/pBad_fc_i_stimulation_with_CI_LVA_fc/pBad_fc_i_stimulation_with_CI_LVA_fc_pBad_fc_i_stimulator/1">
+            <sbol:displayId>pBad_fc_i_stimulation_with_CI_LVA_fc_pBad_fc_i_stimulator</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pBad_fc_i_stimulation_with_CI_LVA_fc/pBad_fc_i_stimulation_with_CI_LVA_fc_pBad_fc_i_stimulator"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/pBad_fc/1"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc/1">
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#atc_tetr/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>atc_tetr_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc"/>
+        <sbol:version>1</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_fc/1">
+        <sbol:displayId>tetR_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_fc"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#tetR/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/ATC_fc/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#ATC/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:displayId>ATC_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/ATC_fc"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc/1">
+        <sbol:definition rdf:resource="http://shortbol.org/v2#Ara_arac/1"/>
+        <sbol:displayId>Ara_arac_fc</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module"/>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_inhibition_with_BBa_J23117_fc/1">
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>CI_p_fc_i_inhibition_with_BBa_J23117_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_inhibition_with_BBa_J23117_fc"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_inhibition_with_BBa_J23117_fc/CI_p_fc_i_inhibition_with_BBa_J23117_fc_BBa_J23117_fc_i_inhibited/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_inhibition_with_BBa_J23117_fc/CI_p_fc_i_inhibition_with_BBa_J23117_fc_BBa_J23117_fc_i_inhibited"/>
+            <sbol:displayId>CI_p_fc_i_inhibition_with_BBa_J23117_fc_BBa_J23117_fc_i_inhibited</sbol:displayId>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000642"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000169"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_inhibition_with_BBa_J23117_fc/CI_p_fc_i_inhibition_with_BBa_J23117_fc_CI_p_fc_i_inhibitor/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_inhibition_with_BBa_J23117_fc/CI_p_fc_i_inhibition_with_BBa_J23117_fc_CI_p_fc_i_inhibitor"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>CI_p_fc_i_inhibition_with_BBa_J23117_fc_CI_p_fc_i_inhibitor</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000020"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding/1">
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding/ara_arac_part/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding/ara_arac_part"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+            <sbol:displayId>ara_arac_part</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding/arac_p_part/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>arac_p_part</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding/arac_p_part"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000177"/>
+        <sbol:displayId>arac_ara_binding</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding/arabinose_part/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/arac_ara_binding/arabinose_part"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/arabinose_fc/1"/>
+            <sbol:displayId>arabinose_part</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_tetR_fc/1">
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_tetR_fc/BBa_J23117_fc_i_stimulation_with_tetR_fc_tetR_fc_i_stimulated/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+            <sbol:displayId>BBa_J23117_fc_i_stimulation_with_tetR_fc_tetR_fc_i_stimulated</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_tetR_fc/BBa_J23117_fc_i_stimulation_with_tetR_fc_tetR_fc_i_stimulated"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>BBa_J23117_fc_i_stimulation_with_tetR_fc</sbol:displayId>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_tetR_fc/BBa_J23117_fc_i_stimulation_with_tetR_fc_BBa_J23117_fc_i_stimulator/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_tetR_fc/BBa_J23117_fc_i_stimulation_with_tetR_fc_BBa_J23117_fc_i_stimulator"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>BBa_J23117_fc_i_stimulation_with_tetR_fc_BBa_J23117_fc_i_stimulator</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_tetR_fc"/>
+        <sbol:version>1</sbol:version>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_degradation/1">
+        <sbol:displayId>CI_p_fc_i_degradation</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_degradation"/>
+        <sbol:version>1</sbol:version>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000179"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_degradation/CI_p_fc_i_reactant/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc_i_degradation/CI_p_fc_i_reactant"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+            <sbol:displayId>CI_p_fc_i_reactant</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc_i_stimulation_with_pBad_fc/1">
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc_i_stimulation_with_pBad_fc/Ara_arac_fc_i_stimulation_with_pBad_fc_Ara_arac_fc_i_stimulator/1">
+            <sbol:displayId>Ara_arac_fc_i_stimulation_with_pBad_fc_Ara_arac_fc_i_stimulator</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc_i_stimulation_with_pBad_fc/Ara_arac_fc_i_stimulation_with_pBad_fc_Ara_arac_fc_i_stimulator"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+            <sbol:version>1</sbol:version>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>Ara_arac_fc_i_stimulation_with_pBad_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc_i_stimulation_with_pBad_fc"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc_i_stimulation_with_pBad_fc/Ara_arac_fc_i_stimulation_with_pBad_fc_pBad_fc_i_stimulated/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/Ara_arac_fc_i_stimulation_with_pBad_fc/Ara_arac_fc_i_stimulation_with_pBad_fc_pBad_fc_i_stimulated"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/pBad_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>Ara_arac_fc_i_stimulation_with_pBad_fc_pBad_fc_i_stimulated</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_fc_i_genetic_production_with_tetR_p_fc/1">
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_fc_i_genetic_production_with_tetR_p_fc/tetR_fc_i_genetic_production_with_tetR_p_fc_tetR_fc_i_participation_promoter/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_fc_i_genetic_production_with_tetR_p_fc/tetR_fc_i_genetic_production_with_tetR_p_fc_tetR_fc_i_participation_promoter"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_fc/1"/>
+            <sbol:displayId>tetR_fc_i_genetic_production_with_tetR_p_fc_tetR_fc_i_participation_promoter</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000598"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_fc_i_genetic_production_with_tetR_p_fc"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_fc_i_genetic_production_with_tetR_p_fc/tetR_fc_i_genetic_production_with_tetR_p_fc_tetR_p_fc_i_product/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc/1"/>
+            <sbol:displayId>tetR_fc_i_genetic_production_with_tetR_p_fc_tetR_p_fc_i_product</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_fc_i_genetic_production_with_tetR_p_fc/tetR_fc_i_genetic_production_with_tetR_p_fc_tetR_p_fc_i_product"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>tetR_fc_i_genetic_production_with_tetR_p_fc</sbol:displayId>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_araC_fc/1">
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_araC_fc/BBa_J23117_fc_i_stimulation_with_araC_fc_araC_fc_i_stimulated/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_araC_fc/BBa_J23117_fc_i_stimulation_with_araC_fc_araC_fc_i_stimulated"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+            <sbol:displayId>BBa_J23117_fc_i_stimulation_with_araC_fc_araC_fc_i_stimulated</sbol:displayId>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_araC_fc"/>
+        <sbol:displayId>BBa_J23117_fc_i_stimulation_with_araC_fc</sbol:displayId>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_araC_fc/BBa_J23117_fc_i_stimulation_with_araC_fc_BBa_J23117_fc_i_stimulator/1">
+            <sbol:displayId>BBa_J23117_fc_i_stimulation_with_araC_fc_BBa_J23117_fc_i_stimulator</sbol:displayId>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc_i_stimulation_with_araC_fc/BBa_J23117_fc_i_stimulation_with_araC_fc_BBa_J23117_fc_i_stimulator"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_p_fc/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>araC_p_fc</sbol:displayId>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#araC_p/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_degradation/1">
+        <sbol:displayId>tetR_p_fc_i_degradation</sbol:displayId>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000179"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_degradation"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_degradation/tetR_p_fc_i_reactant/1">
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc/1"/>
+            <sbol:displayId>tetR_p_fc_i_reactant</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc_i_degradation/tetR_p_fc_i_reactant"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/yfp_fc/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#yfp/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_fc"/>
+        <sbol:version>1</sbol:version>
+        <sbol:displayId>yfp_fc</sbol:displayId>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_inhibition_with_pBad_fc/1">
+        <sbol:version>1</sbol:version>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000169"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_inhibition_with_pBad_fc"/>
+        <sbol:displayId>araC_p_fc_i_inhibition_with_pBad_fc</sbol:displayId>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_inhibition_with_pBad_fc/araC_p_fc_i_inhibition_with_pBad_fc_araC_p_fc_i_inhibitor/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_inhibition_with_pBad_fc/araC_p_fc_i_inhibition_with_pBad_fc_araC_p_fc_i_inhibitor"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>araC_p_fc_i_inhibition_with_pBad_fc_araC_p_fc_i_inhibitor</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000020"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_inhibition_with_pBad_fc/araC_p_fc_i_inhibition_with_pBad_fc_pBad_fc_i_inhibited/1">
+            <sbol:displayId>araC_p_fc_i_inhibition_with_pBad_fc_pBad_fc_i_inhibited</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000642"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_inhibition_with_pBad_fc/araC_p_fc_i_inhibition_with_pBad_fc_pBad_fc_i_inhibited"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/pBad_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#yfp_p/1"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc"/>
+        <sbol:displayId>yfp_p_fc</sbol:displayId>
+        <sbol:version>1</sbol:version>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:displayId>NOR_gate_module</sbol:displayId>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding/1">
+        <sbol:displayId>atc_tetr_binding</sbol:displayId>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000177"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding/tetR_p_part/1">
+            <sbol:displayId>tetR_p_part</sbol:displayId>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc/1"/>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding/tetR_p_part"/>
+            <sbol:version>1</sbol:version>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding/atc_tetr_part/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding/atc_tetr_part"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>atc_tetr_part</sbol:displayId>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc/1"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding/ATC_part/1">
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_binding/ATC_part"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/ATC_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>ATC_part</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc"/>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#CI_LVA/1"/>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:displayId>CI_LVA_fc</sbol:displayId>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_fc/1">
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_fc"/>
+        <sbol:version>1</sbol:version>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#araC/1"/>
+        <sbol:displayId>araC_fc</sbol:displayId>
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc/1">
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:displayId>BBa_J23117_fc</sbol:displayId>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#BBa_J23117/1"/>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/BBa_J23117_fc"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/pTet_fc_i_stimulation_with_CI_LVA_fc/1">
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/pTet_fc_i_stimulation_with_CI_LVA_fc/pTet_fc_i_stimulation_with_CI_LVA_fc_CI_LVA_fc_i_stimulated/1">
+            <sbol:displayId>pTet_fc_i_stimulation_with_CI_LVA_fc_CI_LVA_fc_i_stimulated</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pTet_fc_i_stimulation_with_CI_LVA_fc/pTet_fc_i_stimulation_with_CI_LVA_fc_CI_LVA_fc_i_stimulated"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc/1"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pTet_fc_i_stimulation_with_CI_LVA_fc"/>
+        <sbol:displayId>pTet_fc_i_stimulation_with_CI_LVA_fc</sbol:displayId>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+        <sbol:version>1</sbol:version>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/pTet_fc_i_stimulation_with_CI_LVA_fc/pTet_fc_i_stimulation_with_CI_LVA_fc_pTet_fc_i_stimulator/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/pTet_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>pTet_fc_i_stimulation_with_CI_LVA_fc_pTet_fc_i_stimulator</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/pTet_fc_i_stimulation_with_CI_LVA_fc/pTet_fc_i_stimulation_with_CI_LVA_fc_pTet_fc_i_stimulator"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc_i_stimulation_with_pTet_fc/1">
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc_i_stimulation_with_pTet_fc/atc_tetr_fc_i_stimulation_with_pTet_fc_pTet_fc_i_stimulated/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/pTet_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc_i_stimulation_with_pTet_fc/atc_tetr_fc_i_stimulation_with_pTet_fc_pTet_fc_i_stimulated"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+            <sbol:displayId>atc_tetr_fc_i_stimulation_with_pTet_fc_pTet_fc_i_stimulated</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>atc_tetr_fc_i_stimulation_with_pTet_fc</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc_i_stimulation_with_pTet_fc/atc_tetr_fc_i_stimulation_with_pTet_fc_atc_tetr_fc_i_stimulator/1">
+            <sbol:version>1</sbol:version>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+            <sbol:displayId>atc_tetr_fc_i_stimulation_with_pTet_fc_atc_tetr_fc_i_stimulator</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc_i_stimulation_with_pTet_fc/atc_tetr_fc_i_stimulation_with_pTet_fc_atc_tetr_fc_i_stimulator"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/atc_tetr_fc_i_stimulation_with_pTet_fc"/>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:functionalComponent>
+      <sbol:FunctionalComponent rdf:about="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc/1">
+        <sbol:direction rdf:resource="http://sbols.org/v2#inout"/>
+        <sbol:version>1</sbol:version>
+        <sbol:definition rdf:resource="http://shortbol.org/v2#tetR_p/1"/>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/tetR_p_fc"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:displayId>tetR_p_fc</sbol:displayId>
+      </sbol:FunctionalComponent>
+    </sbol:functionalComponent>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc_i_genetic_production_with_CI_p_fc/1">
+        <sbol:version>1</sbol:version>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc_i_genetic_production_with_CI_p_fc/CI_LVA_fc_i_genetic_production_with_CI_p_fc_CI_LVA_fc_i_participation_promoter/1">
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000598"/>
+            <sbol:displayId>CI_LVA_fc_i_genetic_production_with_CI_p_fc_CI_LVA_fc_i_participation_promoter</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc_i_genetic_production_with_CI_p_fc/CI_LVA_fc_i_genetic_production_with_CI_p_fc_CI_LVA_fc_i_participation_promoter"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc/1"/>
+            <sbol:version>1</sbol:version>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>CI_LVA_fc_i_genetic_production_with_CI_p_fc</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc_i_genetic_production_with_CI_p_fc"/>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc_i_genetic_production_with_CI_p_fc/CI_LVA_fc_i_genetic_production_with_CI_p_fc_CI_p_fc_i_product/1">
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_p_fc/1"/>
+            <sbol:version>1</sbol:version>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+            <sbol:displayId>CI_LVA_fc_i_genetic_production_with_CI_p_fc_CI_p_fc_i_product</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/CI_LVA_fc_i_genetic_production_with_CI_p_fc/CI_LVA_fc_i_genetic_production_with_CI_p_fc_CI_p_fc_i_product"/>
+          </sbol:Participation>
+        </sbol:participation>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc_i_degradation/1">
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc_i_degradation/yfp_p_fc_i_reactant/1">
+            <sbol:version>1</sbol:version>
+            <sbol:displayId>yfp_p_fc_i_reactant</sbol:displayId>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc_i_degradation/yfp_p_fc_i_reactant"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/yfp_p_fc_i_degradation"/>
+        <sbol:displayId>yfp_p_fc_i_degradation</sbol:displayId>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000179"/>
+      </sbol:Interaction>
+    </sbol:interaction>
+    <sbol:interaction>
+      <sbol:Interaction rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_degradation/1">
+        <sbol:version>1</sbol:version>
+        <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_degradation"/>
+        <sbol:type rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000179"/>
+        <sbol:participation>
+          <sbol:Participation rdf:about="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_degradation/araC_p_fc_i_reactant/1">
+            <sbol:version>1</sbol:version>
+            <sbol:persistentIdentity rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc_i_degradation/araC_p_fc_i_reactant"/>
+            <sbol:participant rdf:resource="http://shortbol.org/v2#NOR_gate_module/araC_p_fc/1"/>
+            <sbol:role rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+            <sbol:displayId>araC_p_fc_i_reactant</sbol:displayId>
+          </sbol:Participation>
+        </sbol:participation>
+        <sbol:displayId>araC_p_fc_i_degradation</sbol:displayId>
+      </sbol:Interaction>
+    </sbol:interaction>
+  </sbol:ModuleDefinition>
+</rdf:RDF>

@@ -15,7 +15,9 @@ lp_o = Output("lp_content", "children")
 
 # -- Load Design --
 ld_i = Input("ld_submit", "n_clicks")
-ld_s = State("ld_name", "value")
+ld_s = {"sbol":State("ld_name", "value"),
+        "start" : State("start_rs","value"),
+        "end" : State("end_rs","value")}
 
 # -- Update -- 
 update_i = OrderedDict()

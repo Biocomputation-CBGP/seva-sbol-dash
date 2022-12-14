@@ -21,7 +21,12 @@ class SevaDash(AbstractDash):
         gns = [{"label": self._get_name(c), "value": c} for c in self.visualiser.get_seva_plasmids()]
         lp = (self.create_dropdown(lp_s.component_id, gns,placeholder="Plasmid") + 
                self.create_line_break(10) + self.create_button(lp_i.component_id,"Load"))
-        ad = self.create_text_area(ld_s.component_id,placeholder="Paste SBOL") + self.create_button(ld_i.component_id,"Add Payload")
+
+        rs = [{"label": c, "value": c} for c in self.visualiser.get_restriction_sites()]    
+        ad = (self.create_text_area(ld_s["sbol"].component_id,placeholder="Paste SBOL") + 
+              self.create_dropdown(ld_s["start"].component_id, rs,placeholder="Start") +
+              self.create_dropdown(ld_s["end"].component_id, rs,placeholder="End") +  
+              self.create_button(ld_i.component_id,"Add Payload"))
         acc_elements = [("Load Plasmid", lp),("Add Design",ad)]
         load_accordion = self.create_accordion("proj_accordion", acc_elements)
 
@@ -41,18 +46,18 @@ class SevaDash(AbstractDash):
         self.app.layout = self.create_div("main", load_accordion+container, className="container-fluid")[0]
         # Bind the callbacks
 
-        def load_contents_inner(n_click,e_click,plasmid_name,design):
-            return self.load_contents(n_click,e_click,plasmid_name,design)
+        def load_contents_inner(n_click,e_click,plasmid_name,design,start,end):
+            return self.load_contents(n_click,e_click,plasmid_name,design,start,end)
 
         def update_graph_inner(*args):
             return self.update_graph(args)
 
 
-        self.add_callback(load_contents_inner, [lp_i,ld_i], [lp_o],[lp_s,ld_s])
+        self.add_callback(load_contents_inner, [lp_i,ld_i], [lp_o],[lp_s] + list(ld_s.values()))
         self.add_callback(update_graph_inner, update_i.values(), update_o.values())
         self.build()
 
-    def load_contents(self,n_click,e_click,plasmid_name,design):
+    def load_contents(self,n_click,e_click,plasmid_name,design,start,end):
         changed_id = [p['prop_id'] for p in callback_context.triggered][0].split(".")[0]
         if lp_i.component_id in changed_id:
             self.visualiser.set_plasmid(plasmid_name)
@@ -60,7 +65,7 @@ class SevaDash(AbstractDash):
             return self.create_div(update_o["graph_id"].component_id, figure, className="col")
 
         elif ld_i.component_id in changed_id:
-            self.visualiser.add_payload(design)
+            self.visualiser.add_payload(design,start,end)
             figure = self.visualiser.build(graph_id=graph_id)
             return self.create_div(update_o["graph_id"].component_id, figure, className="col")
         else:
@@ -175,7 +180,8 @@ class SevaDash(AbstractDash):
                                "preset",
                                "get_seva_plasmids",
                                "set_plasmid",
-                               "empty_graph"]
+                               "empty_graph",
+                               "add_payload"]
                             
 
         options = {"view": {},
